@@ -1,0 +1,22 @@
+{
+  "name": "@spatie/query-string",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle src/index.js -o dist/index.js",
+    "test": "jest",
+    "format": "prettier \"**/*.{js,json}\" --write --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "jest": "^24.1.0",
+    "microbundle": "^0.10.1",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "deepmerge": "^3.2.0",
+    "qs": "^6.6.0"
+  }
+}
